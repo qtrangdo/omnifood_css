@@ -235,6 +235,18 @@ header {
     border-bottom: 2px solid #cf6d17;
 }
 
+/* mobile nav */
+.mobile-nav-icon{
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* Sticky nav */
 .sticky {
    position: fixed;

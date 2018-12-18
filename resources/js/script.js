@@ -59,3 +59,11 @@ $('.js--wp-4').waypoint(function(direction){
 },{
     offset: '50%'
 })
+
+// Responsive nav
+$('.js--nav-icon').click( function() {
+    var nav = $('.js--main-nav');
+    var icon = $('.js--nav-icon ion-icon');
+    icon.attr('name') == 'menu' ? icon.attr('name', 'close') : icon.attr('name','menu')
+    nav.slideToggle(200)
+})
